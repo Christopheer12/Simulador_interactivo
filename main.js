@@ -36,4 +36,4 @@ let final_por_mes = cuotas_por_mes + interes;
 alert("simulador interactivo");
 
 
-
+tazaDel21();
