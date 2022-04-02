@@ -7,7 +7,7 @@ const ESPACIO =(" ");
 
 let plata = parseInt(prompt("¿cuanto dinero necesitas?"));
 let cuotas = parseInt(prompt("¿Cual es la cantidad de cuotas?"));
-let Cuotas_por_mes = plata / cuotas;
+let cuotas_por_mes = plata / cuotas;
 let interes = cuotas_por_mes * 21/100;
 let final_por_mes = cuotas_por_mes + interes;
 alert(final_por_mes);
