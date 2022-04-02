@@ -2,16 +2,15 @@
 armar un simulador interactivo la estructura final de tu proyecto integrador
 */
 
- alert("simulador interactivo");
+ 
 const ESPACIO =(" ");
-
+function tazaDel21(){
 let plata = parseInt(prompt("¿cuanto dinero necesitas?"));
 let cuotas = parseInt(prompt("¿Cual es la cantidad de cuotas?"));
 let cuotas_por_mes = plata / cuotas;
 let interes = cuotas_por_mes * 21/100;
 let final_por_mes = cuotas_por_mes + interes;
 
-{
     if (cuotas == 12){
         alert(`tu cuotas mensuales serian de ${ESPACIO}` + final_por_mes);
         
@@ -32,6 +31,9 @@ let final_por_mes = cuotas_por_mes + interes;
         alert(" solo prestamos en 12 , 24 , 36 o 48 cuotas. porfavor ingrese un campo valido");
     } 
 }
+
+
+alert("simulador interactivo");
 
 
 
