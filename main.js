@@ -16,15 +16,15 @@ let final_por_mes = cuotas_por_mes + interes;
         
     }
     else if(cuotas == 24){
-        alert(`tu cuotas mensuales serian de ${ESPACIO}` + taza_del_21);
+        alert(`tu cuotas mensuales serian de ${ESPACIO}` + final_por_mes);
         
     }
     else if(cuotas == 36){
-        alert(`tu cuotas mensuales serian de ${ESPACIO}` + taza_del_21);
+        alert(`tu cuotas mensuales serian de ${ESPACIO}` + final_por_mes);
         
     }
     else if(cuotas == 48){
-        alert(`tu cuotas mensuales serian de ${ESPACIO}` + taza_del_21);
+        alert(`tu cuotas mensuales serian de ${ESPACIO}` + final_por_mes);
         
     }
     else{
